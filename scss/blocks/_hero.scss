@@ -1,0 +1,37 @@
+.hero-list {
+    list-style: none;
+}
+.hero-list__item {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    &:nth-child(2){
+        margin-top: 100px;
+        flex-direction: row-reverse;
+        .hero-list__item__box {
+            width: 528px;
+            margin-left: 42px;
+        }
+    }
+}
+
+
+
+.hero-list__item__box {
+    width: 528px;
+    margin-right: 42px;
+}
+.hero-list__item__box__title {
+    font-family: $main-font-family;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: white;
+}
+.hero-list__item__box__text {
+    font-family: $main-font-family;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}

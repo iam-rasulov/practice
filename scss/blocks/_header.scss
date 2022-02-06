@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/02_Desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__inner{
+    height: 900px;
+    text-align: center;
+}
+
+.header-inner__link__img {
+    width: 400px;
+    display: block;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header-inner__title {
+    display: block;
+    width: 889px;
+    height: 33px;
+    margin: 0 auto;
+    margin-bottom: 500px;
+    font-family: $main-font-family;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.78px;
+}
+
+.header-inner__span{
+    width: 221px;
+    height: 54px;
+    margin-bottom: 110px;
+}
+
+.header-inner__span__link{
+    width: 221px;
+    height: 54px;
+    font-family: $main-font-family;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    padding: 14px 62px;
+}
